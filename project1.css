@@ -1,0 +1,52 @@
+body{
+    background:hsl(30, 38%, 92%);
+    
+    
+}
+.cont{
+    border: 2px;
+    border-radius: 4px;
+    position:absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    display: flex;
+   
+    justify-content: center;
+    
+}
+.cont h3{
+    margin-left: 20px;
+    letter-spacing: 4px;
+    font-weight: 50;
+}
+.content{
+    max-width: 300px;
+    background: white;
+   
+    padding: 20px;
+}
+.price{
+    display: flex;
+
+}
+.price h3{
+    text-decoration:line-through;
+    font-size: 14px;
+    margin-top: 5%;
+
+}
+.price h2{
+    color: green;
+    font-weight: 1000;
+    font-size: 25px;
+}
+button{
+    width: 150px;
+    justify-content: center;
+    padding: 10px 5px;
+    font-size: 15px;
+    background: green;
+    color: aliceblue;
+    border-radius: 2px;
+}
